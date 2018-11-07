@@ -25,11 +25,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="6" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="6" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -55,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/ucsd/cs110/temperature/Fahrenheit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#141#142#0" expanded="true" />
@@ -109,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/ucsd/cs110/tests/CelsiusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +154,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="729" />
     <option name="y" value="-18" />
     <option name="width" value="981" />
@@ -205,13 +207,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="project110" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541577355658" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541577915785" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -238,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TemperatureConverter">
+  <component name="RunManager" selected="JUnit.FahrenheitTest">
     <configuration name="TemperatureConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ucsd.cs110.temperature.TemperatureConverter" />
       <module name="project110" />
@@ -269,12 +274,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CelsiusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project110" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucsd.cs110.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ucsd.cs110.tests" />
+      <option name="MAIN_CLASS_NAME" value="edu.ucsd.cs110.tests.CelsiusTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FahrenheitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project110" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucsd.cs110.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ucsd.cs110.tests" />
+      <option name="MAIN_CLASS_NAME" value="edu.ucsd.cs110.tests.FahrenheitTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: temperature" />
       <item itemvalue="Application.TemperatureConverter" />
+      <item itemvalue="JUnit.CelsiusTest" />
+      <item itemvalue="JUnit.FahrenheitTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FahrenheitTest" />
+        <item itemvalue="JUnit.CelsiusTest" />
         <item itemvalue="Application.TemperatureConverter" />
         <item itemvalue="Cucumber java.All Features in: temperature" />
       </list>
@@ -291,7 +328,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541016527854</updated>
       <workItem from="1541016533154" duration="1559000" />
-      <workItem from="1541558760757" duration="4458000" />
+      <workItem from="1541558760757" duration="4939000" />
     </task>
     <servers />
   </component>
@@ -307,7 +344,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6017000" />
+    <option name="totallyTimeSpent" value="6498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -377,16 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ucsd/cs110/tests/CelsiusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/ucsd/cs110/temperature/Celsius.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -402,13 +429,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/ucsd/cs110/temperature/Fahrenheit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#141#142#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_project110.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ucsd/cs110/tests/CelsiusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
